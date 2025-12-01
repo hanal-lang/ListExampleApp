@@ -19,7 +19,7 @@
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v12.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v11.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -62,8 +62,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapters\ProductAdapter.cs" />
+    <Compile Include="Adapters\ProductDialog.cs" />
+    <Compile Include="Logic\CartItem.cs" />
     <Compile Include="Logic\Global.cs" />
     <Compile Include="Logic\Product.cs" />
+    <Compile Include="Logic\ShoppingCart.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
